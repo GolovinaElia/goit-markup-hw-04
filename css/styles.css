@@ -236,6 +236,9 @@ img {
   justify-content: space-between;
   padding-top: 50px;
 }
+.team-list-item {
+  background-color: var(--secondary-color);
+}
 .team-list-content {
   padding-top: 30px;
   padding-right: 30px;
