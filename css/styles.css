@@ -51,6 +51,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--title-theme-color);
   margin-right: 90px;
+  outline: none;
 }
 
 .logo-item {
@@ -105,6 +106,7 @@ img {
 .address-link:hover,
 .address-link:focus {
   color: var(--accent-color);
+  outline: none;
 }
 
 .navigation-list-link.active {
@@ -130,8 +132,10 @@ img {
   margin-right: 50px;
 }
 
-.address-link:hover .address-link-svg {
+.address-link:hover .address-link-svg,
+.address-link:focus .address-link-svg {
   fill: var(--accent-color);
+  outline: none;
 }
 
 .address-link-svg {
@@ -188,6 +192,7 @@ img {
   align-items: center;
   text-align: center;
   border: none;
+  outline: none;
 }
 
 /*========== END HERO ==========*/
@@ -336,12 +341,16 @@ img {
   fill: #AFB1B8;
 }
 
-.social-list-link:hover .social-list-svg {
+.social-list-link:hover .social-list-svg,
+.social-list-link:focus .social-list-svg {
   fill: var(--secondary-color);
+  outline: none;
 }
 
-.social-list-link:hover {
+.social-list-link:hover,
+.social-list-link:focus {
   background-color: var(--accent-color);
+  outline: none;
 }
 
 /*========== END TEAM ==========*/
@@ -367,18 +376,22 @@ img {
   height: 90px;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
+  outline: none;
 }
 
 .clients-list-svg {
   fill: #AFB1B8;
 }
 
-.clients-list-svg:hover {
-  fill: var(--accent-color);
+.clients-list-link:hover,
+.clients-list-link:focus {
+  border-color: var(--accent-color);
+  outline: none;
 }
 
-.clients-list-link:hover {
-  border: 1px solid var(--accent-color);
+.clients-list-link:hover .clients-list-svg,
+.clients-list-link:focus .clients-list-svg {
+  fill: var(--accent-color);
 }
 
 /*========== END MAIN ==========*/
@@ -451,7 +464,8 @@ img {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-.footer .social-list-link:hover {
+.footer .social-list-link:hover,
+.footer .social-list-link:focus {
   background-color: var(--accent-color);
 }
 
@@ -490,6 +504,7 @@ img {
 .filter-list-title:focus {
   background-color: var(--accent-color);
   color: var(--secondary-color);
+  outline: none;
 }
 
 .categories-list {
